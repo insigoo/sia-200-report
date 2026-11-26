@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "title": "公益项目逻辑体检的一次信度检验",
+    "framework": "insigoo SIA v3.3.0 · L1 快速自检判据 v1.2",
+    "snapshot_date": "2026-11-19",
+    "n": 200,
+    "publishable": false,
+    "note": "全部 score/tier 由脚本按符号独立复算；本报告为方法学信度记录，不构成项目评价，不用于排序。"
+  },
+  "overall": {
+    "mean": 2.635,
+    "median": 2.5,
+    "sd": 1.2587,
+    "min": 0.0,
+    "max": 6.0
+  },
+  "tier_dist": {
+    "优先推进": {
+      "n": 3,
+      "pct": 1.5
+    },
+    "补充复评": {
+      "n": 84,
+      "pct": 42.0
+    },
+    "暂不推荐": {
+      "n": 113,
+      "pct": 56.5
+    }
+  },
+  "score_hist": [
+    {
+      "score": 0.0,
+      "n": 2
+    },
+    {
+      "score": 0.5,
+      "n": 10
+    },
+    {
+      "score": 1.0,
+      "n": 15
+    },
+    {
+      "score": 1.5,
+      "n": 26
+    },
+    {
+      "score": 2.0,
+      "n": 26
+    },
+    {
+      "score": 2.5,
+      "n": 34
+    },
+    {
+      "score": 3.0,
+      "n": 26
+    },
+    {
+      "score": 3.5,
+      "n": 22
+    },
+    {
+      "score": 4.0,
+      "n": 18
+    },
+    {
+      "score": 4.5,
+      "n": 11
+    },
+    {
+      "score": 5.0,
+      "n": 4
+    },
+    {
+      "score": 5.5,
+      "n": 3
+    },
+    {
+      "score": 6.0,
+      "n": 3
+    }
+  ],
+  "by_item": {
+    "Q1": {
+      "pass": 79,
+      "warn": 44,
+      "fail": 77,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.505
+    },
+    "Q2": {
+      "pass": 35,
+      "warn": 118,
+      "fail": 47,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.47
+    },
+    "Q3": {
+      "pass": 4,
+      "warn": 74,
+      "fail": 122,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.205
+    },
+    "Q4": {
+      "pass": 6,
+      "warn": 94,
+      "fail": 100,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.265
+    },
+    "Q5": {
+      "pass": 18,
+      "warn": 30,
+      "fail": 152,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.165
+    },
+    "Q6": {
+      "pass": 17,
+      "warn": 130,
+      "fail": 53,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.41
+    },
+    "Q7": {
+      "pass": 1,
+      "warn": 72,
+      "fail": 127,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.185
+    },
+    "Q8": {
+      "pass": 1,
+      "warn": 6,
+      "fail": 193,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.02
+    },
+    "Q9": {
+      "pass": 0,
+      "warn": 41,
+      "fail": 159,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.1025
+    },
+    "Q10": {
+      "pass": 0,
+      "warn": 123,
+      "fail": 77,
+      "na": 0,
+      "applicable_n": 200,
+      "na_pct": 0.0,
+      "mean": 0.3075
+    }
+  },
+  "by_strata": {
+    "1": {
+      "n": 86,
+      "pct": 43.0,
+      "mean": 2.0116,
+      "tiers": {
+        "优先推进": 1,
+        "补充复评": 20,
+        "暂不推荐": 65
+      },
+      "priority_pct": 1.16
+    },
+    "2": {
+      "n": 73,
+      "pct": 36.5,
+      "mean": 2.7671,
+      "tiers": {
+        "优先推进": 1,
+        "补充复评": 32,
+        "暂不推荐": 40
+      },
+      "priority_pct": 1.37
+    },
+    "3": {
+      "n": 41,
+      "pct": 20.5,
+      "mean": 3.7073,
+      "tiers": {
+        "优先推进": 1,
+        "补充复评": 32,
+        "暂不推荐": 8
+      },
+      "priority_pct": 2.44
+    }
+  },
+  "strata_tier_cross": {
+    "hits1|优先推进": 1,
+    "hits1|补充复评": 20,
+    "hits1|暂不推荐": 65,
+    "hits2|优先推进": 1,
+    "hits2|补充复评": 32,
+    "hits2|暂不推荐": 40,
+    "hits3|优先推进": 1,
+    "hits3|补充复评": 32,
+    "hits3|暂不推荐": 8
+  },
+  "by_cate": {
+    "教育助学": {
+      "n": 34,
+      "mean": 2.9559,
+      "median": 3.0,
+      "tiers": {
+        "优先推进": 1,
+        "补充复评": 17,
+        "暂不推荐": 16
+      },
+      "priority_pct": 2.94,
+      "mean_hits": 2.0882
+    },
+    "乡村振兴": {
+      "n": 34,
+      "mean": 2.9559,
+      "median": 3.0,
+      "tiers": {
+        "优先推进": 0,
+        "补充复评": 18,
+        "暂不推荐": 16
+      },
+      "priority_pct": 0.0,
+      "mean_hits": 2.1765
+    },
+    "医疗救助": {
+      "n": 34,
+      "mean": 2.7059,
+      "median": 2.5,
+      "tiers": {
+        "优先推进": 1,
+        "补充复评": 14,
+        "暂不推荐": 19
+      },
+      "priority_pct": 2.94,
+      "mean_hits": 1.6765
+    },
+    "灾害救援": {
+      "n": 30,
+      "mean": 2.2833,
+      "median": 2.5,
+      "tiers": {
+        "优先推进": 0,
+        "补充复评": 11,
+        "暂不推荐": 19
+      },
+      "priority_pct": 0.0,
+      "mean_hits": 1.5333
+    },
+    "自然保护": {
+      "n": 34,
+      "mean": 1.7059,
+      "median": 1.5,
+      "tiers": {
+        "优先推进": 0,
+        "补充复评": 5,
+        "暂不推荐": 29
+      },
+      "priority_pct": 0.0,
+      "mean_hits": 1.2941
+    },
+    "关怀倡导": {
+      "n": 34,
+      "mean": 3.1618,
+      "median": 3.0,
+      "tiers": {
+        "优先推进": 1,
+        "补充复评": 19,
+        "暂不推荐": 14
+      },
+      "priority_pct": 2.94,
+      "mean_hits": 1.8529
+    }
+  },
+  "disclosure_gap": {
+    "total_candidates": 1073,
+    "total_qualified": 681,
+    "gap_pct": 36.53,
+    "by_cate": {
+      "教育助学": {
+        "candidates": 180,
+        "hits0": 23,
+        "gap_pct": 12.78
+      },
+      "乡村振兴": {
+        "candidates": 180,
+        "hits0": 31,
+        "gap_pct": 17.22
+      },
+      "医疗救助": {
+        "candidates": 180,
+        "hits0": 91,
+        "gap_pct": 50.56
+      },
+      "灾害救援": {
+        "candidates": 180,
+        "hits0": 105,
+        "gap_pct": 58.33
+      },
+      "自然保护": {
+        "candidates": 180,
+        "hits0": 102,
+        "gap_pct": 56.67
+      },
+      "关怀倡导": {
+        "candidates": 173,
+        "hits0": 40,
+        "gap_pct": 23.12
+      }
+    },
+    "note": "候选池披露缺口率，是独立于 200 项目快检的发现，口径为「预算/执行计划/已有成效三项全空」，不得与主表均分混算。"
+  },
+  "risk_freq": {
+    "无成效数据/成果证据": 87,
+    "无反事实/归因讨论": 121,
+    "无受益方参与/反馈": 58,
+    "无负面影响识别": 68,
+    "目标与行动错位": 6,
+    "预算/执行计划缺失": 143,
+    "产出当成果": 112,
+    "筛选偏差/重复覆盖": 19
+  },
+  "deep": {
+    "n": 30,
+    "complete": true,
+    "by_level": {
+      "A_sdg:缺失": 15,
+      "A_sdg:部分": 15,
+      "B_accountability:缺失": 5,
+      "B_accountability:部分": 25,
+      "C_oecd:部分": 30,
+      "D_unintended:缺失": 11,
+      "D_unintended:部分": 19
+    },
+    "level_totals": {
+      "部分": 89,
+      "缺失": 31
+    },
+    "note": "四模块评级为「充分/部分/缺失」，不参与 10 项快检计分"
+  },
+  "consistency": {
+    "note": "全量双人独立重判：200 份 × 10 项 = 2000 符号位，两名复核员隔离盲判；v1.2 判据。",
+    "scope": "full_200",
+    "n_projects": 200,
+    "symbol_positions": 2000,
+    "same": 1683,
+    "diff": 317,
+    "agreement_pct": 84.15,
+    "verdict": "REVIEW",
+    "verdict_rule": ">=90% PASS / 80-90% REVIEW / <80% FAIL",
+    "tier_agreement_note": "分档一致率未在本次双人重判中单独计算；逐符号一致率为唯一信度指标",
+    "per_item": {
+      "Q1": {
+        "same": 166,
+        "diff": 34,
+        "agreement_pct": 83.0
+      },
+      "Q2": {
+        "same": 152,
+        "diff": 48,
+        "agreement_pct": 76.0
+      },
+      "Q3": {
+        "same": 153,
+        "diff": 47,
+        "agreement_pct": 76.5
+      },
+      "Q4": {
+        "same": 166,
+        "diff": 34,
+        "agreement_pct": 83.0
+      },
+      "Q5": {
+        "same": 157,
+        "diff": 43,
+        "agreement_pct": 78.5
+      },
+      "Q6": {
+        "same": 158,
+        "diff": 42,
+        "agreement_pct": 79.0
+      },
+      "Q7": {
+        "same": 173,
+        "diff": 27,
+        "agreement_pct": 86.5
+      },
+      "Q8": {
+        "same": 193,
+        "diff": 7,
+        "agreement_pct": 96.5
+      },
+      "Q9": {
+        "same": 179,
+        "diff": 21,
+        "agreement_pct": 89.5
+      },
+      "Q10": {
+        "same": 186,
+        "diff": 14,
+        "agreement_pct": 93.0
+      }
+    },
+    "diff_direction": {
+      "gap_0.5": 310,
+      "gap_1.0": 7,
+      "A_gt_B": 178,
+      "A_lt_B": 139,
+      "note": "310/317 为相邻档分歧，A/B 方向大致均衡，无系统性偏差"
+    },
+    "arbitration": {
+      "n": 317,
+      "decision_dist": {
+        "take_A": 161,
+        "take_B": 150,
+        "third_way": 6
+      },
+      "method": "第三方仲裁员逐条回读证据原文裁定；甲乙值仅作参考，不暴露来源"
+    },
+    "honest_caveats": [
+      "20 份小样本 v1.2 收敛一致率 89.0%（REVIEW），按自设 ≥90% 门槛本不应启动全量重判。",
+      "经小鱼拍板，为取得更大样本真实信度而启动，明确接受这一门槛偏离。",
+      "全量 200 份实测 84.15%，低于小样本 89%，证明小样本高估了判分员间信度。",
+      "84.15% 属 REVIEW，未达 ≥90% PASS；最终判分可作内部方法学验证记录，对外引用时须同时披露一致率与仲裁机制，不得按已达标表述。",
+      "已否决的 v1.3 判据（82%）未参与本轮；本轮全程使用 v1.2 干净判据。"
+    ],
+    "action": "判分经第三方仲裁后定稿；报告须披露一致率 84.15% 与门槛偏离，不得宣称达标"
+  }
+}
